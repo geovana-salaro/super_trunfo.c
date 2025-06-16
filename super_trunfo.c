@@ -26,8 +26,8 @@ int main() {
     float pibpercapita2;
 
     // Variáveis nível mestre
-    float superpoder1;
-    float superpoder2;
+     float superpoder1;
+     float superpoder2;
 
     // Inserindo dados da carta 1 e 2
     printf("Crie a Carta 1:\n");
@@ -128,6 +128,12 @@ int main() {
     printf("Densidade Populacional: Carta %d venceu (%d)\n", densidadecomp ? 1 : 2, densidadecomp);
     printf("PIB per Capita: Carta %d venceu (%d)\n", pibcapitacomp ? 1 : 2, pibcapitacomp);
     printf("Super Poder: Carta %d venceu (%d)\n", superpodercomp ? 1 : 2, superpodercomp);
+
+    return 0;
+}
+
+
+
 
     return 0;
 }
